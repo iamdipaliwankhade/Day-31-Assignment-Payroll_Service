@@ -1,0 +1,47 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| batch2             |
+| bridglabz          |
+| codejavadb         |
+| curd-1             |
+| ems                |
+| information_schema |
+| jktechhub          |
+| join               |
+| logindetails       |
+| mysql              |
+| performance_schema |
+| sys                |
+| test               |
+| test12             |
+| user               |
++--------------------+
+15 rows in set (0.01 sec)
+
+mysql> create database payroll_service;
+Query OK, 1 row affected (0.06 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| batch2             |
+| bridglabz          |
+| codejavadb         |
+| curd-1             |
+| ems                |
+| information_schema |
+| jktechhub          |
+| join               |
+| logindetails       |
+| mysql              |
+| payroll_service    |
+| performance_schema |
+| sys                |
+| test               |
+| test12             |
+| user               |
++--------------------+
+16 rows in set (0.01 sec)
